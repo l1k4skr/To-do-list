@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(244, 103, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#task {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    border: 2px solid brown;
+}
+input[type=submit] {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    display: flex;
+    text-align: center;
+}
