@@ -27,7 +27,7 @@ form {
     text-align: center;
     border: 2px solid brown;
 }
-input[type=submit] {
+button {
     background-color: brown;
     color: white;
     padding: 10px 20px;
